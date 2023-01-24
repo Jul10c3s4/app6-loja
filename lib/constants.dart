@@ -12,7 +12,7 @@ class Constants {
 
   Color get getCorAppBar => _corAppBar;
 
-  void setCorAppBar(MaterialColor cor) {
+  set setCorAppBar(MaterialColor cor) {
     _corAppBar = cor;
   }
 

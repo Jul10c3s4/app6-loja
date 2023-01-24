@@ -41,12 +41,13 @@ class _HomePageState extends State<HomePage> {
               Switch(
                   value: cor,
                   onChanged: ((value) {
-                    setState(() {
                       cor = value;
                       if (value == true) {
-                        consta.setCorAppBar(Colors.brown);
+                        setState(() {
+                          consta.setCorAppBar = Colors.pink;
+                        });
+                        
                       }
-                    });
                   }))
             ],
           ),
